@@ -5,7 +5,8 @@ function App() {
   return (
     <div className="App">
 
-      <h2>welcome to counter app</h2>
+      <h2>welcome to counter app </h2>
+      <p>counter app using redux</p>
 
       <Countret></Countret>
 

@@ -26,9 +26,9 @@ const Countret = () => {
 
             <h2>Count: {count}</h2>
 
-            <button onClick={handelIncrement}>INCREMENT</button>
-            <button onClick={handelDecrement}>INCREMENT</button>
-            <button onClick={Reset}>Reset</button>
+            <button className='button' onClick={handelIncrement}>INCREMENT</button>
+            <button className='button' onClick={handelDecrement}>INCREMENT</button>
+            <button className='button' onClick={Reset}>Reset</button>
         </div>
     );
 };
